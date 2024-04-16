@@ -1,0 +1,217 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+    background-color: rgb(255, 229, 235);
+}
+
+a {
+    color: rgb(242, 155, 199);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:visited {
+    color: plum;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: oblique;
+    color: rgb(242, 155, 199);
+}
+
+.introparagraph {
+    font-style: italic;
+    font-size: larger;
+}
+
+li {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+}
+
+.picofmeborder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white
+}
+
+.picofmepad {
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picofmemargin {
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listheading {
+    font-size: larger;
+    font-style: normal;
+}
+
+.common {
+    background-color: pink;
+    border: 2px solid white;
+    position: relative;
+}
+
+.top {
+    top: 5px;
+    left: 3px;
+    right: 9px;
+    height: 150px;
+    background-color: pink;
+    border: 5px dashed white;
+    position: relative;
+}
+
+.mainbody {
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    height: 950px;
+    position: relative;
+    /* background-color: rgb(255, 229, 235); */
+}
+
+.characters {
+    top: 20px;
+    left: 5px;
+    right: 5px;
+    height: 3125px;
+    position: relative;
+    /* border: 6px solid lightgoldenrodyellow; */
+
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    height: 20px;
+    text-align: center;
+    background-color: pink;
+    font-style: italic;
+    font-size: auto;
+}
+
+.aboutmepara {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    /* font-weight: bold; */
+}
+
+.bulletlist {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.picofgwen {
+    border: 3px solid plum;
+    box-shadow: 3px;
+}
+
+.picofpeter {
+    display: block;
+    margin-left: auto;
+    border: 3px solid lightskyblue;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    text-transform:uppercase;
+    color:rgb(52, 66, 66)
+
+}
+
+.containerleft {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.characterimg {
+    max-width: 25%;
+    max-height: 15%;
+    float: left;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 0%;
+    float: left;
+}
+
+.rightalign{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.textalign{
+    padding-right: 20px;
+    padding-top: 0%;
+    float: left;
+}
+
+.containerright {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.allthewayright{
+   float: right;
+}
+.picofmeg{
+    border: 3px solid rgb(142, 75, 142);
+}
+.picofherc{
+    border: 3px solid rgb(255, 193, 78);
+}
+.picofanne{
+    border: 3px solid lightgoldenrodyellow;
+}
+.picofgil{
+    border: 3px solid lightslategray;
+}
+.picofkyo{
+    border: 3px solid rgb(255, 177, 31);
+}
+.picoftohru{
+    border: 3px solid lightpink;
+}
+.characterpara{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black
+    
+}
